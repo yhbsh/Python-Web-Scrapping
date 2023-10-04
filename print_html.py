@@ -1,8 +1,6 @@
-import os
 import sys
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
 
 # Function to print the parsed HTML of a webpage
 def print_parsed_html(url):

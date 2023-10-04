@@ -1,8 +1,6 @@
-import os
 import sys
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
 
 # Function to save the parsed HTML of a webpage to a file
 def save_parsed_html(url, output_file):
